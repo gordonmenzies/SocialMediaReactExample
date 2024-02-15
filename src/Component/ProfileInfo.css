@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    color: black;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: white;
+}
+
+body {
+    background-color: rgb(234, 114, 114); 
+}
+
+#container {
+    background-color: rgb(234, 114, 114); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: solid white 2px;
+    margin: 15px;
+    width: 450px;
+}
+
+#actualImage {
+    margin-right: 30px;
+    border-radius: 50%;
+    background-color: rgb(234, 114, 114); 
+
+
+}
+
+button {
+    float: right;
+    margin-left: 80px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(234, 114, 114); 
+
+}
+
+button:hover {
+    background-color: rgb(68, 68, 126);
+}
+
+/* NAVBAR */
+
+header {
+    margin-top: 10px;
+    display: flex;
+    color: white;
+    font-size: 12px;
+}
+
+#nav_menu {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    width: 100%;
+    justify-content: end;
+}
+
+.navbar {
+    display: flex;
+    width: 150px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar:hover {
+    background-color: rgb(134, 118, 227);
+}
+
+#green {
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+#outer {
+    display: flex;
+}
+
+.column {
+    margin-top: 10px;
+}
+
+.column h1 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.column p {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#left-column-container {
+    width: 70%;
+}
+
+#right-column {
+    width: 30%;
+    margin-left: 30px;
+    border: solid black 2px;
+    
+}
+
+.left-column {
+    border: solid black 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
