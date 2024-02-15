@@ -5,6 +5,18 @@ import "./ProfileInfo.css"
 function ProfileInfo(props){
 
     // Variables and functions go here
+    /*
+        when the button is pressed, 
+        identify which component button is pressed
+        pick that friend 
+        add them to the addFriends state
+
+
+    */
+       function handleButtonClick() {
+        props.onChange(props.profileID)
+       }
+
 
     //HTML goes in the return.
     return(
@@ -17,7 +29,7 @@ function ProfileInfo(props){
             <h1>DOB : {props.dob}</h1>
             <h1>Age : {props.age}</h1>
         </div>
-            <button>Friend Request</button>
+            <button onClick={handleButtonClick}>Add Friend</button>
     </div>
     )  
 }

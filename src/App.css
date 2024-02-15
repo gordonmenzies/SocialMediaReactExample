@@ -37,11 +37,36 @@
   }
 }
 
+body {
+  display: flex;
+  flex-direction: row;
+}
+
 #profileSpace {
   display: flex;
   justify-content: center;
-  width: 75%;
+  width: 60%;
   flex-direction: row;
   flex-wrap: wrap;
+}
 
+.containerTitle {
+  width: 100%;
+  text-align: center;
+}
+
+#addedFriends {
+  background-color: blue;
+  opacity: 80%;
+  width: 30%;
+  margin-left: 100px;
+  margin-right: -20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#addedFriends .container {
+  margin-left: 10px;
 }

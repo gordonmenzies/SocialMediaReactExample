@@ -20,7 +20,7 @@ body {
     border-radius: 10px;
     border: solid white 2px;
     margin: 15px;
-    width: 450px;
+    width: 350px;
 }
 
 #actualImage {
@@ -33,7 +33,7 @@ body {
 
 button {
     float: right;
-    margin-left: 80px;
+    margin-left:20px;
     margin-bottom: 60px;
     border-radius: 10px;
     border: none;
